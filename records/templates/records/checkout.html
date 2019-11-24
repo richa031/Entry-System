@@ -1,0 +1,26 @@
+
+<table style="width:100%%">
+<caption>Name</caption>
+<tr>
+  <th>Visitor Name:</th>
+  <td>{{record.visitor}}</td>
+<tr>
+
+<tr>
+  <th>visitor_number:</th>
+  <td>{{record.visitor_number}}</td>
+<tr>
+
+<tr>
+  <th>visitor_email:</th>
+  <td>{{record.visitor_email}}</td>
+<tr>
+
+
+
+</table>
+
+<form method="post">
+  {% csrf_token%}
+  <input type="submit" name="" value="CheckOut">
+</form>
