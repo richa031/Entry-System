@@ -1,26 +1,57 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<table style="width:100%%">
-<caption>Name</caption>
-<tr>
-  <th>Visitor Name:</th>
-  <td>{{record.visitor}}</td>
-<tr>
+		<!-- LINEARICONS -->
+		<link rel="stylesheet" href="{% static 'fonts/linearicons/style.css' %}">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  
+  <body>
 
-<tr>
-  <th>visitor_number:</th>
-  <td>{{record.visitor_number}}</td>
-<tr>
+      <div class="wrapper">
+        <div class="inner">
+          <img src="{% static 'images/image-1.png' %}" alt="" class="image-1">
+          <form method="POST">
+              {% csrf_token%}
+              
+            <h3>Details</h3>
+            <div class="form-holder">
+                <span class="lnr lnr-user">Visitor Name: {{record.visitor}}</span>
+            </div>
+            </br>
+            </br>
+            <div class="form-holder">
+                <span class="lnr lnr-phone-handset">Phone number: {{record.visitor_number}}</span>
+            </div>
+            </br>
+            
+            <div class="form-holder">
+                <span class="lnr lnr-envelope">Email: {{record.visitor_email}}</span>
+              </div>
 
-<tr>
-  <th>visitor_email:</th>
-  <td>{{record.visitor_email}}</td>
-<tr>
+            <button>
+              <span>Checkout</span>
+            </button>
+          </form>
+          <img src="{% static 'images/image-2.png' %}" alt="" class="image-2">
+        </div>
+        
+      </div>
+      
+      <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+      <script src="{% static 'js/main.js' %}"></script>
+  
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
 
 
 
-</table>
 
-<form method="post">
-  {% csrf_token%}
-  <input type="submit" name="" value="CheckOut">
-</form>

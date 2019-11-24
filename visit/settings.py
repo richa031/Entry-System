@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "visit",
     "records",
     'django_twilio',
+     'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -122,6 +123,8 @@ SENDSMS_BACKEND = 'myapp.mysmsbackend.SmsBackend'
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
