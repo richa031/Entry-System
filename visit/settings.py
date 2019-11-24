@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "visit",
     "records",
+    'django_twilio',
 ]
 
 MIDDLEWARE = [
@@ -115,8 +116,21 @@ USE_L10N = True
 
 USE_TZ = True
 
+SENDSMS_BACKEND = 'myapp.mysmsbackend.SmsBackend'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'justforregistraions@gmail.com'
+EMAIL_HOST_PASSWORD = 'whiplash98'
+
+
+TWILIO_ACCOUNT_SID = 'ACd1866ca75d17c385c1cdc81006667b20'
+TWILIO_AUTH_TOKEN = 'b8553f4e7d1d81f1a49c070cf9fd9396'
+TWILIO_PHONE_NUMBER= '+19382228464'

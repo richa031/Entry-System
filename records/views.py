@@ -4,6 +4,16 @@ from __future__ import unicode_literals
 from django.shortcuts import render, redirect, reverse
 from .forms import LoginForm, VisitForm
 from .models import Record
+from django.core.mail import send_mail
+from django.core.mail import EmailMessage
+from django.conf import settings
+from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
+from twilio.twiml.messaging_response import MessagingResponse
+from twilio.rest import Client
+from sendsms import api
+
+
 # Create your views here.
 def home(request):
     if request.method == "GET":
@@ -60,6 +70,10 @@ def visit(request):
                 host_number = form.cleaned_data["host_number"],
             )
             record.save()
+            # email = EmailMessage('Hello', 'World', to=['divy97@gmail.com'])
+            # email.send()
+            x = email(request)  
+            y = sms(request)
             #yaha pe check in karte waqt jo mail aur sms bhejna hai uska code aa jaiga
             return redirect(reverse("records:checkout"))
 
@@ -80,3 +94,18 @@ def check_out(request):
         # yaha pe checkout wala pe sms aur email bhejne wala code aa jaiga
         return redirect(reverse("records:home"))
     return render(request, "records/home.html")
+
+def email(request):
+    subject = 'Thank you for registering to our site'
+    message = ' it  means a world to us '
+    email_from = settings.EMAIL_HOST_USER
+    recipient_list = ['divy97@gmail.com','17UCS126@lnmiit.ac.in']
+    send_mail( subject, message, email_from, recipient_list )
+    return "nice"
+
+def sms(request):
+    client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
+    client.messages.create(from_=settings.TWILIO_PHONE_NUMBER,
+                    to="+918003695517",
+                    body='You just sent an SMS from Python using Twilio!')
+    return "nice"
