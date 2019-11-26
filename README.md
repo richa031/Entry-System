@@ -76,7 +76,7 @@ Quit the server with CTRL-BREAK.
 
 
 
-APP/WELCOME
+APP/ ENTRY SYSTEM
 ---------------
 
 ### 1\. WELCOME Page
