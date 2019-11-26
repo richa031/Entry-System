@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
-
+import config as config
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'dbi6afva-_j(7i6j+h6bw%ww28cw2htx3@z^+d523i!ijv@)$^'
+SECRET_KEY = config.SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "visit",
     "records",
     'django_twilio',
-     'crispy_forms',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -126,14 +126,14 @@ STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'justforregistraions@gmail.com'
-EMAIL_HOST_PASSWORD = 'whiplash98'
+EMAIL_BACKEND = config.EMAIL_BACKEND
+EMAIL_HOST = config.EMAIL_HOST
+EMAIL_USE_TLS = config.EMAIL_USE_TLS
+EMAIL_PORT = config.EMAIL_PORT
+EMAIL_HOST_USER = config.EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD = config.EMAIL_HOST_PASSWORD
 
 
-TWILIO_ACCOUNT_SID = 'ACd1866ca75d17c385c1cdc81006667b20'
-TWILIO_AUTH_TOKEN = 'b8553f4e7d1d81f1a49c070cf9fd9396'
-TWILIO_PHONE_NUMBER= '+19382228464'
+TWILIO_ACCOUNT_SID = config.TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN = config.TWILIO_AUTH_TOKEN
+TWILIO_PHONE_NUMBER= config.TWILIO_PHONE_NUMBER

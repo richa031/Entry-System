@@ -2,39 +2,91 @@
 {% load crispy_forms_tags %}
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<!-- LINEARICONS -->
-		<link rel="stylesheet" href="{% static 'fonts/linearicons/style.css' %}">
-		
-		<!-- STYLE CSS -->
-		<link rel="stylesheet" href="{% static 'css/style.css' %}">
-  </head>
+    <head>
+        <title>Entry System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--===============================================================================================-->	
+        <link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}"/>
+      <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+      <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+      <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">
+      <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">
+      <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}">
+      <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+      <!--===============================================================================================-->
+      </head> 
   
-  <body>
-
-      <div class="wrapper">
-        <div class="inner">
-          <img src="{% static 'images/image-1.png' %}" alt="" class="image-1">
-          <form method="POST">
-              {% csrf_token%}
-              
-            <h3>WELCOME</h3>
-            {{ form|crispy }}
-            <button>
-              <span>Enter</span>
-            </button>
-          </form>
-          <img src="{% static 'images/image-2.png' %}" alt="" class="image-2">
-        </div>
+      <body>
+	
+          <div class="limiter">
+            <div class="container-login100" style="background: #accffe;">
+              <div class="wrap-login100">
+                <div class="login100-pic js-tilt" data-tilt>
+                  <img src="{% static 'images/img-01.png' %}" alt="IMG">
+                </div>
         
-      </div>
-      
-      <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
-      <script src="{% static 'js/main.js' %}"></script>
-  
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+                <form class="login100-form validate-form" method="POST">
+                    {% csrf_token%}
+                  <span class="login100-form-title">
+                    WELCOME
+                  </span>
+                  {{ form|crispy }}
+                  <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" type="submit" name="enter" style="background: #006085">
+                      Enter
+                    </button>
+                  </div>
+                  <div class="container-login100-form-btn">
+                      <button class="login100-form-btn" type="submit" name="check_out" style="background: #006085">
+                        Checkout
+                      </button>
+                    </div>
+        
+                  <div class="text-center p-t-12">
+                    
+                  </div>
+        
+                  <div class="text-center p-t-136">
+                    
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+          
+        
+          
+        <!--===============================================================================================-->	
+          <script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+        <!--===============================================================================================-->
+          <script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
+          <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+        <!--===============================================================================================-->
+          <script src="{% static 'vendor/select2/select2.min.js' %}"></script>
+        <!--===============================================================================================-->
+          <script src="{% static 'vendor/tilt/tilt.jquery.min.js' %}"></script>
+          <script >
+            $('.js-tilt').tilt({
+              scale: 1.1
+            })
+          </script>
+        <!--===============================================================================================-->
+          <script src="{% static 'js/main.js' %}"></script>
+        
+        </body>
+        {% if display_alert %}
+        <script>       
+          alert("You have already check in")
+        </script>
+        {% endif %}
 
 </html>

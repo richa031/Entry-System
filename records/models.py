@@ -13,10 +13,20 @@ class Record(models.Model):
     host_email = models.CharField(max_length=50)
     check_in = models.DateTimeField(default = timezone.now)
     check_out = models.DateTimeField(default=None, blank=True, null=True)
+    checked_in = models.BooleanField(default=False)
 
-    def checkout_visitor(self):
+    def check_out(self):
         self.check_out = timezone.now()
+        self.checked_in = False
         self.save()
 
+
+    def get_checkin_time(self):
+        checkInTimeStamp = str(self.check_in.hour) + ":" + str(self.check_in.minute) + "  " + str(self.check_in.day) + "/" + str(self.check_in.month)
+        return checkInTimeStamp
+
+    def get_checkout_time(self):
+        checkOutTimeStamp = str(self.check_out.hour) + ":" + str(self.check_out.minute) + "  " + str(self.check_out.day) + "/" + str(self.check_out.month)
+        return checkOutTimeStamp
     def __str__(self):
         return self.visitor
