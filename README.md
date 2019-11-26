@@ -28,8 +28,10 @@ software.
 
 3, Install dependencies
 
-```pip install django```
-```pip install django_twilio```
+```pip install django```,
+
+```pip install django_twilio```,
+
 ```pip install crispy_forms```
 
 4, Generate Account SID, Authentication Token , Phone no
