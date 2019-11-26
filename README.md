@@ -73,7 +73,7 @@ You should get something like this when every step has been followed correctly:
    ```
 
 ### Folder Structure:
-
+![](file:///C:/Users/Richa/Desktop/Capture.PNG)
 
 
 APP/ ENTRY SYSTEM
