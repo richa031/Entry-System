@@ -36,7 +36,7 @@ software.
 
 4, Generate Account SID, Authentication Token , Phone no
 
-Refer to this link - <https://www.twilio.com/>
+   Refer to this link - <https://www.twilio.com/>
 
 5, Create a config.py file and add below mentioned details in it.
 ```
