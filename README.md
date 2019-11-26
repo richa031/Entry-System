@@ -73,7 +73,10 @@ You should get something like this when every step has been followed correctly:
    ```
 
 ### Folder Structure:
-![](file:///C:/Users/Richa/Desktop/Capture.PNG)
+![Capture](https://user-images.githubusercontent.com/32764563/69664139-c349c600-10ad-11ea-9f09-9dddc2835d6b.PNG)
+
+
+![Capture1](https://user-images.githubusercontent.com/32764563/69664168-cfce1e80-10ad-11ea-9089-621e073cd2a0.PNG)
 
 
 APP/ ENTRY SYSTEM
