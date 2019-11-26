@@ -91,6 +91,8 @@ Enter your phone number which you need to get entry with.
 SAMPLE IMAGE -
 
 
+![Screenshot (33)](https://user-images.githubusercontent.com/32764563/69664417-58e55580-10ae-11ea-81d8-3f18e131fdec.png)
+
 
 ### 2\. Enter your Details
 
