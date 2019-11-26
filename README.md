@@ -18,15 +18,15 @@ software.
 
 ### Instructions to install
 
-1, Clone this repository:
+1. Clone this repository:
 
 ```git clone <https://github.com/richa031/EntrySystem.git>```
 
-2, Change directory
+2. Change directory
 
 ```cd visit```
 
-3, Install dependencies
+3. Install dependencies
 
 ```pip install django```
 
@@ -34,11 +34,11 @@ software.
 
 ```pip install crispy_forms```
 
-4, Generate Account SID, Authentication Token , Phone no
+4. Generate Account SID, Authentication Token , Phone no
 
    Refer to this link - <https://www.twilio.com/>
 
-5, Create a config.py file and add below mentioned details in it.
+5. Create a config.py file and add below mentioned details in it.
 ```
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -56,7 +56,7 @@ TWILIO_PHONE_NUMBER= 'TWILIO PHONE NUMBER'
 SECRET_KEY = 'YOUR SECRET KEY'
 ```
 
-6, Start the server
+6. Start the server
 
 ```python manage.py runserver```
 
