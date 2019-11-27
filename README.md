@@ -104,9 +104,11 @@ SAMPLE IMAGE -
 
 ![Screenshot (35)](https://user-images.githubusercontent.com/32764563/69691225-73dab880-10f4-11ea-89a0-e330beeb3949.png)
 
-SAMPLE IMAGE - Email which the HOST gets after visitor checks in (Checking button)
+SAMPLE IMAGE1 - Email which the HOST gets after visitor checks in (Checking button)
 
 ![Capture4](https://user-images.githubusercontent.com/32764563/69691579-7a1d6480-10f5-11ea-80d3-0a0e8da2eca4.PNG)
+
+IMAGE2
 
 ![Capture5](https://user-images.githubusercontent.com/32764563/69691630-a802a900-10f5-11ea-9357-134b24b594fe.PNG)
 
