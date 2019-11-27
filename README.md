@@ -112,7 +112,7 @@ SAMPLE IMAGE - Email which the HOST gets after visitor checks in
 
 SAMPLE IMAGE - SMS which the HOST gets after visitor checks in
 
-![IMG_20191127_085435](https://user-images.githubusercontent.com/32764563/69691307-abe1fb80-10f4-11ea-83ad-8f415a03799b.jpg)
+![Capture3](https://user-images.githubusercontent.com/32764563/69691464-39255000-10f5-11ea-8ac5-fdd558df62c2.PNG)
 
 
  
