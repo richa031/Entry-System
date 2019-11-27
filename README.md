@@ -104,13 +104,13 @@ SAMPLE IMAGE -
 
 ![Screenshot (35)](https://user-images.githubusercontent.com/32764563/69691225-73dab880-10f4-11ea-89a0-e330beeb3949.png)
 
-SAMPLE IMAGE - Email which the HOST gets after visitor checks in
+SAMPLE IMAGE - Email which the HOST gets after visitor checks in (Checking button)
 
 ![Capture4](https://user-images.githubusercontent.com/32764563/69691579-7a1d6480-10f5-11ea-80d3-0a0e8da2eca4.PNG)
 
 ![Capture5](https://user-images.githubusercontent.com/32764563/69691630-a802a900-10f5-11ea-9357-134b24b594fe.PNG)
 
-SAMPLE IMAGE - SMS which the HOST gets after visitor checks in
+SAMPLE IMAGE - SMS which the HOST gets after visitor checks in (Checking button)
 
 ![Capture3](https://user-images.githubusercontent.com/32764563/69691464-39255000-10f5-11ea-8ac5-fdd558df62c2.PNG)
 
@@ -123,6 +123,9 @@ Details of visitor displayed
 http://127.0.0.1:8000/checkout  (methods supported - POST)
 
 SMAPLE IMAGE - 
+
+![Screenshot (36)](https://user-images.githubusercontent.com/32764563/69691723-ded8bf00-10f5-11ea-8cef-6e1ab69b5f9a.png)
+
 
 SAMPLE IMAGE - Email which the VISITOR gets after visitor checks out (Checkout button)
 
