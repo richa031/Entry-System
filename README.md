@@ -106,9 +106,9 @@ SAMPLE IMAGE -
 
 SAMPLE IMAGE - Email which the HOST gets after visitor checks in
 
-![IMG_20191127_085519](https://user-images.githubusercontent.com/32764563/69691297-a5538400-10f4-11ea-8c02-6e4bdbc04a7b.jpg)
+![Capture4](https://user-images.githubusercontent.com/32764563/69691579-7a1d6480-10f5-11ea-80d3-0a0e8da2eca4.PNG)
 
-![IMG_20191127_085550](https://user-images.githubusercontent.com/32764563/69691303-a8e70b00-10f4-11ea-879b-f7e81e445f74.jpg)
+![Capture5](https://user-images.githubusercontent.com/32764563/69691630-a802a900-10f5-11ea-9357-134b24b594fe.PNG)
 
 SAMPLE IMAGE - SMS which the HOST gets after visitor checks in
 
