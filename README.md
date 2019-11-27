@@ -16,6 +16,8 @@ software.
 
 -   Twilio SMS Services
 
+-   Google SMTP service
+
 ### Instructions to install
 
 1. Clone this repository:
