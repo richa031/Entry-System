@@ -102,9 +102,19 @@ http://127.0.0.1:8000/records  (methods supported - POST)
 
 SAMPLE IMAGE -
 
+![Screenshot (35)](https://user-images.githubusercontent.com/32764563/69691225-73dab880-10f4-11ea-89a0-e330beeb3949.png)
+
 SAMPLE IMAGE - Email which the HOST gets after visitor checks in
 
+![IMG_20191127_085519](https://user-images.githubusercontent.com/32764563/69691297-a5538400-10f4-11ea-8c02-6e4bdbc04a7b.jpg)
+
+![IMG_20191127_085550](https://user-images.githubusercontent.com/32764563/69691303-a8e70b00-10f4-11ea-879b-f7e81e445f74.jpg)
+
 SAMPLE IMAGE - SMS which the HOST gets after visitor checks in
+
+![IMG_20191127_085435](https://user-images.githubusercontent.com/32764563/69691307-abe1fb80-10f4-11ea-83ad-8f415a03799b.jpg)
+
+
  
 ### 3\. Checkout Page with Details
 
