@@ -129,7 +129,13 @@ SMAPLE IMAGE -
 ![Screenshot (40)](https://user-images.githubusercontent.com/32764563/69692075-fa909500-10f6-11ea-8ed5-7ba2a4518b7b.png)
 
 
-SAMPLE IMAGE - Email which the VISITOR gets after visitor checks out (Checkout button)
+SAMPLE IMAGE1 - Email which the VISITOR gets after visitor checks out (Checkout button)
+
+![Capture6](https://user-images.githubusercontent.com/32764563/69696029-6b8a7980-1104-11ea-8a1e-dad072d5b5b3.PNG)
+
+IMAGE2
+
+![Capture7](https://user-images.githubusercontent.com/32764563/69696033-6e856a00-1104-11ea-8cfe-feb747abead5.PNG)
 
 
 ### CONTACT
