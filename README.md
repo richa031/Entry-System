@@ -102,7 +102,7 @@ http://127.0.0.1:8000/records  (methods supported - POST)
 
 SAMPLE IMAGE -
 
-![Screenshot (35)](https://user-images.githubusercontent.com/32764563/69691225-73dab880-10f4-11ea-89a0-e330beeb3949.png)
+![Screenshot (39)](https://user-images.githubusercontent.com/32764563/69692070-f6647780-10f6-11ea-9714-cf1c4b2a3a28.png)
 
 SAMPLE IMAGE1 - Email which the HOST gets after visitor checks in (Checking button)
 
@@ -124,9 +124,9 @@ Details of visitor displayed
 
 http://127.0.0.1:8000/checkout  (methods supported - POST)
 
-SMAPLE IMAGE - 
+SMAPLE IMAGE -
 
-![Screenshot (36)](https://user-images.githubusercontent.com/32764563/69691723-ded8bf00-10f5-11ea-8cef-6e1ab69b5f9a.png)
+![Screenshot (40)](https://user-images.githubusercontent.com/32764563/69692075-fa909500-10f6-11ea-8ed5-7ba2a4518b7b.png)
 
 
 SAMPLE IMAGE - Email which the VISITOR gets after visitor checks out (Checkout button)
