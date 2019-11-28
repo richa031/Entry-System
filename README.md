@@ -99,6 +99,7 @@ SAMPLE IMAGE -
 ### 2\. Enter your Details
 
 Enter all the details of Visitor and Host given in the form and click CHECKIN button
+After clicking the checkin button you will be redirected to the WELCOME page. From where you can CHECKOUT via checkout button.
 
 http://127.0.0.1:8000/records  (methods supported - POST)
 
@@ -106,7 +107,7 @@ SAMPLE IMAGE -
 
 ![Screenshot (39)](https://user-images.githubusercontent.com/32764563/69692070-f6647780-10f6-11ea-9714-cf1c4b2a3a28.png)
 
-SAMPLE IMAGE1 - Email which the HOST gets after visitor checks in (Checking button)
+SAMPLE IMAGE1 - Email which the HOST gets after visitor checks in (Checkin button)
 
 ![Capture4](https://user-images.githubusercontent.com/32764563/69691579-7a1d6480-10f5-11ea-80d3-0a0e8da2eca4.PNG)
 
@@ -114,7 +115,7 @@ IMAGE2
 
 ![Capture5](https://user-images.githubusercontent.com/32764563/69691630-a802a900-10f5-11ea-9357-134b24b594fe.PNG)
 
-SAMPLE IMAGE - SMS which the HOST gets after visitor checks in (Checking button)
+SAMPLE IMAGE - SMS which the HOST gets after visitor checks in (Checkin button)
 
 ![Capture3](https://user-images.githubusercontent.com/32764563/69691464-39255000-10f5-11ea-8ac5-fdd558df62c2.PNG)
 
@@ -122,6 +123,8 @@ SAMPLE IMAGE - SMS which the HOST gets after visitor checks in (Checking button)
  
 ### 3\. Checkout Page with Details
 
+To checkout from the system you need to enter the registered mobile no with which you checked in and then click the checkout button.
+If you have already checked out there will be an alert "User already checked out" by the system.
 Details of visitor displayed
 
 http://127.0.0.1:8000/checkout  (methods supported - POST)
