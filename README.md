@@ -98,7 +98,7 @@ SAMPLE IMAGE -
 
 ### 2\. Enter your Details
 
-Enter all the details of Visitor and Host given in the form and click CHECKIN button
+Enter all the details of Visitor and Host given in the form and click CHECKIN button.
 After clicking the checkin button you will be redirected to the WELCOME page. From where you can CHECKOUT via checkout button.
 
 http://127.0.0.1:8000/records  (methods supported - POST)
