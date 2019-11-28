@@ -125,7 +125,8 @@ SAMPLE IMAGE - SMS which the HOST gets after visitor checks in (Checkin button)
 
 To checkout from the system you need to enter the registered mobile no with which you checked in and then click the checkout button.
 If you have already checked out there will be an alert "User already checked out" by the system.
-Details of visitor displayed
+
+Details of visitor displayed:
 
 http://127.0.0.1:8000/checkout  (methods supported - POST)
 
